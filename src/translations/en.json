@@ -145,5 +145,29 @@
       "question": "Still have questions?",
       "cta3": "Ask Census Saathi"
     }
+  },
+  "chat": {
+    "sidebar": {
+      "title": "Ask Saathi",
+      "subtitle": "Your multilingual guide to Census 2027",
+      "description": "I can help you understand the census process, timelines, safety, eligibility, and other census-related questions.",
+      "suggestionsTitle": "Suggested questions",
+      "suggestions": [
+        "What is the Census?",
+        "When does Census 2027 start?",
+        "Is my information safe?",
+        "How does self-enumeration work?"
+      ]
+    },
+    "header": {
+      "title": "Saathi Assistant",
+      "status": "Online",
+      "clearChat": "New Chat",
+      "clearConfirm": "Clear conversation?"
+    },
+    "input": {
+      "placeholder": "Ask Saathi anything about the Census..."
+    },
+    "welcomeMessage": "Namaste! I'm Saathi, your Census 2027 guide. How can I help you today?"
   }
 }

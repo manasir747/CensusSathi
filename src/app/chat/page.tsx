@@ -1,17 +1,27 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
+"use client";
+
+import { useState } from "react";
+import { ChatSidebar, ChatArea } from "@/components/chat";
+import styles from "./page.module.css";
 
 export default function ChatPage() {
+  const [externalInput, setExternalInput] = useState<string | null>(null);
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setExternalInput(suggestion);
+  };
+
   return (
-    <div className="container py-8">
-      <h1 className="mb-4">Ask Census Saathi</h1>
-      <Card>
-        <CardHeader>
-          <CardTitle>Chat with AI</CardTitle>
-        </CardHeader>
-        <CardContent>
-          AI chat interface will be implemented here.
-        </CardContent>
-      </Card>
-    </div>
+    <main className={styles.page}>
+      <div className={styles.chatContainer}>
+        <ChatSidebar onSuggestionClick={handleSuggestionClick} />
+        <div className={styles.chatAreaWrapper}>
+          <ChatArea 
+            externalInput={externalInput} 
+            onClearExternalInput={() => setExternalInput(null)} 
+          />
+        </div>
+      </div>
+    </main>
   );
 }

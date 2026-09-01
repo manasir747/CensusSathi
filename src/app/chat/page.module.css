@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 72px); /* Assuming navbar is ~72px */
+  background-color: var(--surface-dim);
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem;
+  height: calc(100vh - 72px - 2rem);
+}
+
+@media (min-width: 1024px) {
+  .chatContainer {
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+    height: calc(100vh - 72px - 4rem);
+  }
+}
+
+.chatAreaWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  height: 100%;
+}
