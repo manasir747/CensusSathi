@@ -8,32 +8,75 @@
     "selectLanguage": "Select Language"
   },
   "footer": {
-    "disclaimer": "© 2027 Census Saathi. This is an educational guidance platform and not an official government portal."
+    "disclaimer": "© 2027 Census Saathi. This is an educational guidance platform and not an official government portal.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal & Privacy"
   },
   "hero": {
     "badge": "Official Guide to Census 2027",
     "title": "Census 2027",
     "subtitleHighlight": "made simple.",
-    "description": "Your friendly, multilingual guide to the upcoming Indian Census. Learn what to expect, how to participate, and how to stay safe.",
+    "description": "A friendly multilingual guide to help every citizen understand what to expect, when it happens, and how to stay safe.",
     "ctaPrimary": "Understand Census",
     "ctaSecondary": "Ask Census Saathi"
   },
   "features": {
+    "title": "How can we help you?",
     "understandTitle": "Understand Census",
-    "understandDesc": "Learn about the two phases of the census and what information is collected.",
+    "understandDesc": "Learn what Census 2027 is and what its two phases mean.",
     "stateTitle": "Check My State",
-    "stateDesc": "Find out exactly when the Census is happening in your state or Union Territory.",
+    "stateDesc": "Find Census dates and information for your State or UT.",
     "worksTitle": "How It Works",
-    "worksDesc": "A step-by-step guide explaining the survey process and how to participate safely.",
+    "worksDesc": "Understand what to expect before, during and after Census activities.",
     "chatTitle": "Ask Census Saathi",
-    "chatDesc": "Have questions? Chat with our AI assistant in your preferred language."
+    "chatDesc": "Have a question? Ask our multilingual AI guide."
   },
   "phases": {
-    "title": "The Two Phases of Census 2027",
+    "title": "Census 2027 happens in two phases",
     "subtitle": "The census is conducted in two separate visits to your home.",
-    "phase1Title": "Phase 1: House Listing",
-    "phase1Desc": "Government workers will visit to collect basic information about your house and amenities.",
-    "phase2Title": "Phase 2: Population Enumeration",
-    "phase2Desc": "A few months later, workers will return to count the members of your household."
+    "cta": "Learn more",
+    "phase1Title": "House Listing & Housing Census",
+    "phase1Desc": "Focuses mainly on houses, households, housing conditions, amenities and household assets.",
+    "phase2Title": "Population Enumeration",
+    "phase2Desc": "Focuses on information about people living in households."
+  },
+  "whatIsCensus": {
+    "title": "What is Census?",
+    "description": "The Census is a national survey that collects basic information about people and households. It helps the government understand our country's needs and plan for a better future. It is completely safe and confidential.",
+    "flow1": "India",
+    "flow2": "Households & People",
+    "flow3": "Information Collection",
+    "flow4": "Better Planning"
+  },
+  "journey": {
+    "title": "Your Census Journey",
+    "step1": "Check your dates",
+    "step2": "Learn about self-enumeration",
+    "step3": "Understand the enumerator visit",
+    "step4": "Stay safe",
+    "cta": "See how it works"
+  },
+  "stateCta": {
+    "title": "Wondering when Census activities happen near you?",
+    "subtitle": "Select your State or Union Territory to see the relevant timeline.",
+    "cta": "Check My State"
+  },
+  "aiCta": {
+    "title": "Have a question?",
+    "subtitle": "Ask Census Saathi anything about Census 2027.",
+    "cta": "Ask Census Saathi"
+  },
+  "safetyPreview": {
+    "title": "Stay informed. Stay safe.",
+    "point1": "Protect sensitive information",
+    "point2": "Watch out for suspicious requests",
+    "point3": "Verify Census information through trusted official sources",
+    "cta": "Learn how to stay safe"
+  },
+  "insightsPreview": {
+    "title": "India through Census",
+    "subtitle": "Explore historical Census information and see how our nation has grown.",
+    "historicalNote": "Note: This section contains historical data from past censuses.",
+    "cta": "Explore Census Insights"
   }
 }
