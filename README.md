@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Census Saathi
 
-## Getting Started
+Census Saathi is an interactive, AI-powered web platform designed to simplify and gamify the Census experience for citizens. Built for the **PromptWars Hackathon**, this platform serves as an all-in-one companion to educate, guide, and assist citizens throughout the Census process.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Interactive Journey:** Understand the "What" and "Why" of the Census, including the House Listing and Population Enumeration phases.
+- **AI-Powered Assistance:** Integrated with `@google/genai` to provide instant, contextual answers to your Census queries using advanced Gemini models.
+- **State-Specific Insights:** Explore state-wise data and tailored calls to action.
+- **Safety & Privacy:** Learn how your data is protected during the data collection process.
+- **Modern UI/UX:** A responsive, highly animated interface built with Next.js, React 19, Framer Motion, and Lucide Icons.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router, React 19)
+- **Language:** TypeScript
+- **Styling:** CSS Modules
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **AI Integration:** `@google/genai` (Google Gemini API)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚦 Getting Started
 
-## Learn More
+### Prerequisites
+Make sure you have Node.js (v20+) and npm (or pnpm/yarn/bun) installed.
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   cd CensusSathi
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory. You will need to add your API keys here (e.g., Google Gemini API key):
+   ```env
+   # Add your environment variables here
+   # GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📁 Project Structure
+
+- `src/app`: Contains the Next.js App Router pages and layouts.
+- `src/components`: Reusable UI components grouped by feature (e.g., home sections).
+- `src/context`: React Context providers for global state management.
+- `src/hooks`: Custom React hooks.
+- `src/services`: API and external service integrations (like Gemini AI).
+- `src/translations`: Localization files for multi-language support.
+- `src/types`: TypeScript definitions and interfaces.
+- `src/utils`: Helper functions and utilities.
+
+## 🤝 Hackathon Context
+
+This project was developed for the **PromptWars Hackathon**. It demonstrates how GenAI and modern web technologies can be combined to build impactful civic tech solutions, encouraging citizen participation in nationwide data collection exercises like the Census.
