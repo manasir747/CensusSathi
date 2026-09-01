@@ -1,0 +1,17 @@
+.pageContainer {
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.pageDisclaimer {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}

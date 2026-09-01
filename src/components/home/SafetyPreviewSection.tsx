@@ -44,7 +44,7 @@ export function SafetyPreviewSection() {
           </li>
         </ul>
 
-        <Link href="/security">
+        <Link href="/stay-safe">
           <Button variant="outline" className={styles.safetyBtn}>
             {t('safetyPreview.cta')}
             <ArrowRight size={18} className="ml-2" />
