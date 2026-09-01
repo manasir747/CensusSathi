@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f1",
+    "question": "What is Census 2027?",
+    "answer": "Census 2027 is the official count of every resident in India. It collects vital information about the population, housing, and demographics to help in government planning and resource allocation.",
+    "category": "General"
+  },
+  {
+    "id": "f2",
+    "question": "What are the two phases of the Census?",
+    "answer": "The Census is conducted in two phases: Phase 1 is House Listing and Housing Census, focusing on amenities and living conditions. Phase 2 is Population Enumeration, focusing on counting people and demographic details.",
+    "category": "Process"
+  },
+  {
+    "id": "f3",
+    "question": "Is my Census information confidential?",
+    "answer": "Yes. The information you provide is strictly confidential under the Census Act, 1948. It cannot be used against you in a court of law or shared with any other government agency for investigation.",
+    "category": "Privacy"
+  },
+  {
+    "id": "f4",
+    "question": "What is self-enumeration?",
+    "answer": "Self-enumeration is a process where you can fill out your census details online through an official government portal, reducing the time needed when an enumerator visits.",
+    "category": "Process"
+  }
+]

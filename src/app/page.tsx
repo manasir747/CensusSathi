@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Home, MapPin, Compass, MessageSquareText, ChevronDown } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 import styles from "./page.module.css";
 
 const FADE_UP = {
@@ -21,6 +22,8 @@ const STAGGER = {
 };
 
 export default function HomePage() {
+  const { t } = useLanguage();
+
   return (
     <div className={styles.page}>
       
@@ -34,27 +37,26 @@ export default function HomePage() {
             variants={STAGGER}
           >
             <motion.div variants={FADE_UP} className={styles.badge}>
-              <span className={styles.badgeIcon}>🇮🇳</span> Official Guide to Census 2027
+              <span className={styles.badgeIcon}>🇮🇳</span> {t('hero.badge')}
             </motion.div>
             
             <motion.h1 variants={FADE_UP} className={styles.title}>
-              Census 2027, <br />
-              <span className="text-primary">made simple.</span>
+              {t('hero.title')}, <br />
+              <span className="text-primary">{t('hero.subtitleHighlight')}</span>
             </motion.h1>
             
             <motion.p variants={FADE_UP} className={styles.subtitle}>
-              Your friendly, multilingual guide to the upcoming Indian Census.
-              Learn what to expect, how to participate, and how to stay safe.
+              {t('hero.description')}
             </motion.p>
             
             <motion.div variants={FADE_UP} className={styles.ctaGroup}>
               <Link href="/guide">
-                <Button size="lg" className={styles.primaryCta}>Understand Census</Button>
+                <Button size="lg" className={styles.primaryCta}>{t('hero.ctaPrimary')}</Button>
               </Link>
               <Link href="/chat">
                 <Button variant="outline" size="lg" className={styles.secondaryCta}>
                   <MessageSquareText size={20} className={styles.btnIcon} />
-                  Ask Census Saathi
+                  {t('hero.ctaSecondary')}
                 </Button>
               </Link>
             </motion.div>
@@ -91,10 +93,10 @@ export default function HomePage() {
                   <div className={styles.iconWrapper}>
                     <Home size={32} />
                   </div>
-                  <CardTitle>Understand Census</CardTitle>
+                  <CardTitle>{t('features.understandTitle')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  Learn about the two phases of the census and what information is collected.
+                  {t('features.understandDesc')}
                 </CardContent>
               </Card>
             </Link>
@@ -107,10 +109,10 @@ export default function HomePage() {
                   <div className={styles.iconWrapper}>
                     <MapPin size={32} />
                   </div>
-                  <CardTitle>Check My State</CardTitle>
+                  <CardTitle>{t('features.stateTitle')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  Find out exactly when the Census is happening in your state or Union Territory.
+                  {t('features.stateDesc')}
                 </CardContent>
               </Card>
             </Link>
@@ -123,10 +125,10 @@ export default function HomePage() {
                   <div className={styles.iconWrapper}>
                     <Compass size={32} />
                   </div>
-                  <CardTitle>How It Works</CardTitle>
+                  <CardTitle>{t('features.worksTitle')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  A step-by-step guide explaining the survey process and how to participate safely.
+                  {t('features.worksDesc')}
                 </CardContent>
               </Card>
             </Link>
@@ -139,10 +141,10 @@ export default function HomePage() {
                   <div className={styles.iconWrapperPrimary}>
                     <MessageSquareText size={32} />
                   </div>
-                  <CardTitle>Ask Census Saathi</CardTitle>
+                  <CardTitle>{t('features.chatTitle')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  Have questions? Chat with our AI assistant in your preferred language.
+                  {t('features.chatDesc')}
                 </CardContent>
               </Card>
             </Link>
@@ -160,8 +162,8 @@ export default function HomePage() {
             viewport={{ once: true }}
             variants={FADE_UP}
           >
-            <h2>The Two Phases of Census 2027</h2>
-            <p>The census is conducted in two separate visits to your home.</p>
+            <h2>{t('phases.title')}</h2>
+            <p>{t('phases.subtitle')}</p>
           </motion.div>
 
           <div className={styles.timeline}>
@@ -174,8 +176,8 @@ export default function HomePage() {
             >
               <div className={styles.phaseIcon}>1</div>
               <div className={styles.phaseContent}>
-                <h3>Phase 1: House Listing</h3>
-                <p>Government workers will visit to collect basic information about your house and amenities.</p>
+                <h3>{t('phases.phase1Title')}</h3>
+                <p>{t('phases.phase1Desc')}</p>
               </div>
             </motion.div>
 
@@ -198,8 +200,8 @@ export default function HomePage() {
             >
               <div className={styles.phaseIconSecondary}>2</div>
               <div className={styles.phaseContent}>
-                <h3>Phase 2: Population Enumeration</h3>
-                <p>A few months later, workers will return to count the members of your household.</p>
+                <h3>{t('phases.phase2Title')}</h3>
+                <p>{t('phases.phase2Desc')}</p>
               </div>
             </motion.div>
           </div>

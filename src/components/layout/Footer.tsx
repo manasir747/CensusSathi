@@ -1,11 +1,16 @@
+"use client";
+
+import { useLanguage } from '@/context/LanguageContext';
 import styles from './Footer.module.css';
 
 export function Footer() {
+  const { t } = useLanguage();
+  
   return (
     <footer className={styles.footer}>
       <div className={`container ${styles.footerContainer}`}>
         <p className={styles.text}>
-          © 2027 Census Saathi. This is an educational guidance platform and not an official government portal.
+          {t('footer.disclaimer')}
         </p>
       </div>
     </footer>

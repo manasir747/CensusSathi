@@ -1,0 +1,27 @@
+[
+  {
+    "id": "s1",
+    "topic": "Financial Security & OTPs",
+    "do": [
+      "Verify the identity card of the visiting enumerator.",
+      "Answer census-related demographic and housing questions accurately."
+    ],
+    "dont": [
+      "Do NOT share your bank account details.",
+      "Do NOT share any OTPs (One Time Passwords) sent to your phone.",
+      "Do NOT share UPI PINs or passwords."
+    ]
+  },
+  {
+    "id": "s2",
+    "topic": "Verifying Officials",
+    "do": [
+      "Ask to see the official Census Identity Card.",
+      "Check official local government announcements regarding census dates in your area."
+    ],
+    "dont": [
+      "Do NOT let anyone inside your home if they refuse to show their official ID.",
+      "Do NOT pay any money to enumerators. The census is completely free."
+    ]
+  }
+]

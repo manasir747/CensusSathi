@@ -1,0 +1,29 @@
+[
+  {
+    "stateCode": "MH",
+    "stateName": "Maharashtra",
+    "status": "unknown",
+    "selfEnumerationPeriod": null,
+    "houseListingPeriod": null,
+    "populationEnumerationPeriod": null,
+    "notes": "Official dates for Census 2027 in Maharashtra have not yet been announced."
+  },
+  {
+    "stateCode": "TN",
+    "stateName": "Tamil Nadu",
+    "status": "unknown",
+    "selfEnumerationPeriod": null,
+    "houseListingPeriod": null,
+    "populationEnumerationPeriod": null,
+    "notes": "Official dates for Census 2027 in Tamil Nadu have not yet been announced."
+  },
+  {
+    "stateCode": "DL",
+    "stateName": "Delhi",
+    "status": "unknown",
+    "selfEnumerationPeriod": null,
+    "houseListingPeriod": null,
+    "populationEnumerationPeriod": null,
+    "notes": "Official dates for Census 2027 in Delhi have not yet been announced."
+  }
+]

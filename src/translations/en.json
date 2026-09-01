@@ -1,0 +1,39 @@
+{
+  "navigation": {
+    "home": "Home",
+    "howItWorks": "How it Works",
+    "myState": "My State",
+    "staySafe": "Stay Safe",
+    "askSaathi": "Ask Saathi",
+    "selectLanguage": "Select Language"
+  },
+  "footer": {
+    "disclaimer": "© 2027 Census Saathi. This is an educational guidance platform and not an official government portal."
+  },
+  "hero": {
+    "badge": "Official Guide to Census 2027",
+    "title": "Census 2027",
+    "subtitleHighlight": "made simple.",
+    "description": "Your friendly, multilingual guide to the upcoming Indian Census. Learn what to expect, how to participate, and how to stay safe.",
+    "ctaPrimary": "Understand Census",
+    "ctaSecondary": "Ask Census Saathi"
+  },
+  "features": {
+    "understandTitle": "Understand Census",
+    "understandDesc": "Learn about the two phases of the census and what information is collected.",
+    "stateTitle": "Check My State",
+    "stateDesc": "Find out exactly when the Census is happening in your state or Union Territory.",
+    "worksTitle": "How It Works",
+    "worksDesc": "A step-by-step guide explaining the survey process and how to participate safely.",
+    "chatTitle": "Ask Census Saathi",
+    "chatDesc": "Have questions? Chat with our AI assistant in your preferred language."
+  },
+  "phases": {
+    "title": "The Two Phases of Census 2027",
+    "subtitle": "The census is conducted in two separate visits to your home.",
+    "phase1Title": "Phase 1: House Listing",
+    "phase1Desc": "Government workers will visit to collect basic information about your house and amenities.",
+    "phase2Title": "Phase 2: Population Enumeration",
+    "phase2Desc": "A few months later, workers will return to count the members of your household."
+  }
+}

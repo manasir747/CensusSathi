@@ -1,0 +1,48 @@
+[
+  {
+    "id": "phase1",
+    "name": "House Listing & Housing Census",
+    "shortDescription": "Focuses on houses, households, and amenities.",
+    "detailedDescription": "During this phase, enumerators collect basic information about your house, housing conditions, and available amenities. This helps the government understand living standards.",
+    "categories": [
+      {
+        "id": "c1",
+        "title": "Housing Information",
+        "description": "Condition of the house, material of roof, wall, and floor."
+      },
+      {
+        "id": "c2",
+        "title": "Basic Amenities",
+        "description": "Availability of drinking water, electricity, and sanitation facilities."
+      },
+      {
+        "id": "c3",
+        "title": "Household Assets",
+        "description": "Information about vehicles, internet access, and cooking fuel."
+      }
+    ]
+  },
+  {
+    "id": "phase2",
+    "name": "Population Enumeration",
+    "shortDescription": "Focuses on the people living in households.",
+    "detailedDescription": "During this phase, enumerators count the members of your household and collect demographic data to understand population trends.",
+    "categories": [
+      {
+        "id": "c4",
+        "title": "Demographic Information",
+        "description": "Age, sex, marital status, and relation to the head of the household."
+      },
+      {
+        "id": "c5",
+        "title": "Education & Economy",
+        "description": "Literacy status, educational attainment, and nature of economic activity."
+      },
+      {
+        "id": "c6",
+        "title": "Social & Migration",
+        "description": "Information regarding migration, mother tongue, and caste/tribe if applicable."
+      }
+    ]
+  }
+]
