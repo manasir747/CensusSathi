@@ -78,5 +78,72 @@
     "subtitle": "Explore historical Census information and see how our nation has grown.",
     "historicalNote": "Note: This section contains historical data from past censuses.",
     "cta": "Explore Census Insights"
+  },
+  "guide": {
+    "hero": {
+      "title": "Understand Census 2027",
+      "subtitle": "Learn what the Census is, why it matters, and what to expect — in simple language."
+    },
+    "whatIs": {
+      "title": "What is Census?",
+      "description": "The Census is a nationwide exercise that collects information about households and people to help understand the country and support planning.",
+      "flow1": "Homes",
+      "flow2": "People",
+      "flow3": "Census Information",
+      "flow4": "Understanding India",
+      "flow5": "Better Planning"
+    },
+    "whyItMatters": {
+      "title": "Why does Census matter?",
+      "card1Title": "Planning public services",
+      "card2Title": "Understanding education needs",
+      "card3Title": "Understanding housing and communities",
+      "card4Title": "Understanding population changes"
+    },
+    "twoPhasesDetail": {
+      "title": "Census 2027 happens in two phases",
+      "phase1": {
+        "title": "House Listing & Housing Census",
+        "desc": "This phase focuses mainly on houses, households, housing conditions, amenities and household assets.",
+        "items": ["House", "Water", "Electricity", "Cooking fuel", "Sanitation", "Internet", "Household assets"]
+      },
+      "phase2": {
+        "title": "Population Enumeration",
+        "desc": "This phase focuses on information about the people living in households.",
+        "items": ["Demographics", "Education", "Socio-economic information", "Migration", "Fertility", "Caste information"]
+      }
+    },
+    "phaseComparison": {
+      "title": "Phase Comparison",
+      "phase1Focus": "Focus: Homes & Households",
+      "phase2Focus": "Focus: People",
+      "takeaway": "First understand the home. Then understand the people living in it."
+    },
+    "terms": {
+      "title": "Census words made simple",
+      "term1": "Enumerator",
+      "desc1": "An official person who visits households during the Census process.",
+      "term2": "Self-enumeration",
+      "desc2": "Filling out your Census information yourself using the official portal.",
+      "term3": "Household",
+      "desc3": "A group of people living together and sharing meals from a common kitchen.",
+      "term4": "House Listing",
+      "desc4": "The first phase that lists homes and gathers information about amenities.",
+      "term5": "Population Enumeration",
+      "desc5": "The second phase that gathers information about every person."
+    },
+    "summary": {
+      "title": "So, what should I remember?",
+      "point1": "Census is about understanding people and households.",
+      "point2": "Census activities happen in stages.",
+      "point3": "The information collected depends on the stage.",
+      "point4": "Census Saathi is here to help you understand the process."
+    },
+    "nextSteps": {
+      "cta1": "Check My State",
+      "cta2": "See How It Works",
+      "question": "Still have questions?",
+      "cta3": "Ask Census Saathi"
+    }
   }
 }
