@@ -19,7 +19,7 @@ export function Navbar() {
         
         <nav className={styles.desktopNav}>
           <Link href="/guide" className={styles.navLink}>{t('navigation.howItWorks')}</Link>
-          <Link href="/timeline" className={styles.navLink}>{t('navigation.myState')}</Link>
+          <Link href="/my-state" className={styles.navLink}>{t('navigation.myState')}</Link>
           <Link href="/security" className={styles.navLink}>{t('navigation.staySafe')}</Link>
         </nav>
         

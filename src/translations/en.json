@@ -169,5 +169,29 @@
       "placeholder": "Ask Saathi anything about the Census..."
     },
     "welcomeMessage": "Namaste! I'm Saathi, your Census 2027 guide. How can I help you today?"
+  },
+  "myState": {
+    "heroTitle": "When is Census happening near you?",
+    "heroSubtitle": "Select your state or union territory to view current notification status, upcoming timelines, and specific instructions for your region.",
+    "selectRegion": "Select Region",
+    "searchPlaceholder": "Search state or UT...",
+    "frequentlySearched": "Frequently Searched",
+    "noRegionTitle": "No Region Selected",
+    "noRegionDesc": "Use the search bar or quick links on the left to select your State or Union Territory and view the official census timeline for your area.",
+    "demoDataBadge": "DEMO DATA — Illustrative timelines only",
+    "timelineTitle": "Census Timeline",
+    "phase1": "Preparation",
+    "phase1Desc": "Pre-census activities and mapping.",
+    "phase2": "House Listing",
+    "phase2Desc": "Identifying structures and households.",
+    "phase3": "Self-Enumeration",
+    "phase3Desc": "Online portal opens for citizens.",
+    "phase4": "Population Enumeration",
+    "phase4Desc": "Door-to-door data collection.",
+    "phase5": "Completion",
+    "phase5Desc": "Data processing and final publication.",
+    "cardCurrentStatus": "Current Status",
+    "cardNextMilestone": "Next Milestone",
+    "cardCitizenAction": "Citizen Action"
   }
 }

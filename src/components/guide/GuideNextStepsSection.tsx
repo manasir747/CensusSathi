@@ -26,7 +26,7 @@ export function GuideNextStepsSection() {
           viewport={{ once: true }}
           variants={FADE_UP}
         >
-          <Button size="lg" variant="primary" className={styles.actionBtn} onClick={() => router.push('/timeline')}>
+          <Button size="lg" variant="primary" className={styles.actionBtn} onClick={() => router.push('/my-state')}>
             <Calendar size={20} className={styles.btnIcon} />
             {t('guide.nextSteps.cta1')}
           </Button>
