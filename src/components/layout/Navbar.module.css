@@ -1,0 +1,122 @@
+.header {
+  background-color: var(--surface);
+  color: var(--foreground);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+.logoIcon {
+  font-size: 1.5rem;
+}
+
+.desktopNav {
+  display: none;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .desktopNav {
+    display: flex;
+  }
+  .mobileMenuBtn {
+    display: none;
+  }
+}
+
+.navLink {
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color var(--transition-fast);
+}
+
+.navLink:hover {
+  color: var(--primary);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Language Selector */
+.langSelector {
+  position: relative;
+}
+
+.langBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--background);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  padding: 0.5rem 0.75rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all var(--transition-fast);
+}
+
+.langBtn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background-color: var(--surface);
+}
+
+/* Chat CTA */
+.chatCta {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--secondary);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: transform var(--transition-fast), background-color var(--transition-fast);
+}
+
+.chatCta:hover {
+  background-color: var(--secondary-hover);
+  transform: translateY(-1px);
+}
+
+@media (min-width: 768px) {
+  .chatCta {
+    display: flex;
+  }
+}
+
+.mobileMenuBtn {
+  background: none;
+  border: none;
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0.25rem;
+}
