@@ -8,17 +8,29 @@ import { Home, MapPin, Compass, MessageSquareText, ChevronDown } from "lucide-re
 import { useLanguage } from "@/context/LanguageContext";
 import styles from "./page.module.css";
 
-const FADE_UP = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+const FADE_UP: any = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
 };
 
-const STAGGER = {
+const STAGGER: any = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: { staggerChildren: 0.15 }
+    transition: { staggerChildren: 0.2 }
   }
+};
+
+const FLOAT: any = {
+  animate: (custom: number) => ({
+    y: [0, -10, 0],
+    transition: {
+      duration: 4,
+      ease: "easeInOut",
+      repeat: Infinity,
+      delay: custom
+    }
+  })
 };
 
 export default function HomePage() {
@@ -64,14 +76,24 @@ export default function HomePage() {
           
           <motion.div 
             className={styles.heroVisual}
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" } as any}
           >
             <div className={styles.illustrationCircle}>
-              <Home size={64} className={styles.illustIcon1} />
-              <MapPin size={48} className={styles.illustIcon2} />
-              <MessageSquareText size={48} className={styles.illustIcon3} />
+              {/* Background decorative circles */}
+              <div className={styles.decorCircle1}></div>
+              <div className={styles.decorCircle2}></div>
+
+              <motion.div custom={0} variants={FLOAT} animate="animate" className={`${styles.iconFloat} ${styles.illustIcon1Wrapper}`}>
+                <Home size={64} className={styles.illustIcon1} />
+              </motion.div>
+              <motion.div custom={1.5} variants={FLOAT} animate="animate" className={`${styles.iconFloat} ${styles.illustIcon2Wrapper}`}>
+                <MapPin size={48} className={styles.illustIcon2} />
+              </motion.div>
+              <motion.div custom={0.8} variants={FLOAT} animate="animate" className={`${styles.iconFloat} ${styles.illustIcon3Wrapper}`}>
+                <MessageSquareText size={48} className={styles.illustIcon3} />
+              </motion.div>
             </div>
           </motion.div>
         </div>

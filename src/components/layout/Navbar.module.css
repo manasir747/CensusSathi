@@ -103,18 +103,25 @@
   display: none;
   align-items: center;
   gap: 0.5rem;
-  background-color: var(--secondary);
-  color: white;
+  background-color: var(--surface);
+  color: var(--primary);
+  border: 1px solid var(--primary);
   padding: 0.5rem 1rem;
-  border-radius: 2rem;
+  border-radius: 9999px;
   font-weight: 600;
-  font-size: 0.875rem;
-  transition: transform var(--transition-fast), background-color var(--transition-fast);
+  transition: all var(--transition-fast);
+  animation: subtlePulse 3s infinite;
 }
 
 .chatCta:hover {
-  background-color: var(--secondary-hover);
-  transform: translateY(-1px);
+  background-color: var(--primary);
+  color: white;
+  animation: none;
+}
+
+@keyframes subtlePulse {
+  0%, 100% { transform: translateY(0); box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.2); }
+  50% { transform: translateY(-2px); box-shadow: 0 4px 10px 0 rgba(37, 99, 235, 0.2); }
 }
 
 @media (min-width: 768px) {

@@ -2,11 +2,17 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-family: inherit;
+  font-weight: 600;
   border-radius: var(--radius);
-  font-weight: 500;
-  transition: all 0.2s;
+  transition: all var(--transition-fast);
   cursor: pointer;
+  white-space: nowrap;
   border: 1px solid transparent;
+}
+
+.button:active {
+  transform: scale(0.97);
 }
 
 .button:disabled {
